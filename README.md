@@ -1,5 +1,9 @@
-# Featuren
-Featuren is web app that make easy creates feature requests.
+<img src="http://i67.tinypic.com/2q9gzlu.png" alt="" width="200" height="80">
+
+
+### Introdution
+Manage feature request could be a challenger, handle of stale data, keeping everything in one place, etc...
+Back to the Feature is web app that make easy creates feature requests.
 
 ### Dependences ###
 
