@@ -28,6 +28,17 @@ pyenv activate venv
 
 * You need to create a databaes and user in PostgreSQL:
 
-Create database: `createdb eventfy_db`
-Create user: `createuser -P -s eventfy_admin`
+Create database: `createdb back-to-feature-db`
+Create user: `createuser -P -s deLorean_admin`
 
+* Create environment variables:
+```
+cp contrib/env-sample .env
+```
+
+* Fill environment variables defined in .env file
+* Generate Key for CSRF_SESSION_KEY and SECRET using contrib:
+```
+python contrib/secret_gen.py
+```
+Copy the output and past it at each keys in .env file
